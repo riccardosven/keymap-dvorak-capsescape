@@ -1,0 +1,4 @@
+post_install() {
+  echo -e " \e[1;31m(!)\e[39;1m set KEYMAP=dvorak-capsescape in /etc/vconsole.conf"
+  echo -e " \e[1;31m(!)\e[39;1m or use localectl set-keymap dvorak-capsescape"
+}
